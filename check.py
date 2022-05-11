@@ -4,7 +4,6 @@ import numpy as np
 import requests
 import zipfile
 from io import BytesIO
-import cryptocmd
 from cryptocmd import CmcScraper
 from plotly import graph_objs as go
 
