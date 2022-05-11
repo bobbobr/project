@@ -4,6 +4,7 @@ import numpy as np
 import requests
 import zipfile
 from io import BytesIO
+import cryptocmd
 from cryptocmd import CmcScraper
 from plotly import graph_objs as go
 
@@ -11,7 +12,7 @@ from plotly import graph_objs as go
 import pandas as pd
 
 
-tic = st.text_input("Enter a ticker")
+tic = st.sidebar.text_input("Enter a ticker")
 scraper = CmcScraper('GMT')
 df = scraper.get_dataframe()
 st.dataframe(df)
