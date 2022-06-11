@@ -26,3 +26,8 @@ for ind, row in gdf.iterrows():
     folium.Marker([row.lat, row.lon], radius=30, fill_color='red').add_to(m)
 
 a=st_folium(m)
+
+lol = pd.read_csv('moscow.csv')
+l = gpd.GeoDataFrame(wil, geometry = gpd.points_from_xy(l['lon'], l['lat']))
+gl = l.sjoin(lol, how="inner", predicate='intersects')
+st.write(gl)
