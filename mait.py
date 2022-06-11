@@ -9,6 +9,8 @@ import re
 import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import streamlit_folium as st_folium
+
 
 
 s = pd.read_csv('check.csv')
