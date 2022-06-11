@@ -12,3 +12,4 @@ requests
 fake_useragent
 geopandas
 streamlit_folium
+pygeos
