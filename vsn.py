@@ -41,13 +41,3 @@ folium.GeoJson(r, name='geojson').add_to(m)
 m
 
 
-url1 = "https://www.sportmaster.ru/stores/moscow/"
-html_doc = requests.get(url1).text
-data = re.search(r"window\.INITIAL_STATE=(.*?);", html_doc)
-data = json.loads(data)
-shopslat = []
-shopslon = []
-for l in range(len(data['shops'])):
-    shopslat.append(data['shops'][l]['geoPoint']['lat'])
-    shopslon.append(data['shops'][l]['geoPoint']['lon'])
-st.write(shopslon, shopslat)
