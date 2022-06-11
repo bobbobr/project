@@ -35,5 +35,5 @@ gl = l.sjoin(lol, how="inner", predicate='intersects')
 
 tut = gl['name'].value_counts()
 fig = lol.set_index('name').assign(tut = tut)
-st.pyplot(fig(column = 'tut', legend = True)
+st.pyplot(fig(column = 'tut', legend = True))
 
