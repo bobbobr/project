@@ -28,6 +28,6 @@ for ind, row in gdf.iterrows():
 a=st_folium(m)
 
 lol = pd.read_csv('moscow.csv')
-l = gpd.GeoDataFrame(wil, geometry = gpd.points_from_xy(l['lon'], l['lat']))
-gl = l.sjoin(l, how="inner", predicate='intersects')
+l = gpd.GeoDataFrame(l, geometry = gpd.points_from_xy(l['lon'], l['lat']))
+gl = l.sjoin(lol, how="inner", predicate='intersects')
 st.write(gl)
