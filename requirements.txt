@@ -11,3 +11,4 @@ streamlit-folium>=0.6
 requests
 fake_useragent
 geopandas
+streamlit_folium
