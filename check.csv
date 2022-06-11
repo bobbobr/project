@@ -1,0 +1,425 @@
+,Name,Year,Min,Genre,Rate,Votes,Cast
+0, The Pallisers ,1974,1335,"Drama, Romance",8.2,488," Susan Hampshire, Philip Latham, Barbara Murray, Moray Watson"
+1," Берлин, Александерплац ",1980,931,"Crime, Drama",8.4,4487," Günter Lamprecht, Claus Holm, Hanna Schygulla, Franz Buchrieser"
+2, Возвращение в Брайдсхед ,1981,659,"Drama, Romance",8.6,7302," Jeremy Irons, Diana Quick, Roger Milner, Phoebe Nicholls"
+3, Север и Юг ,1985,561,"Drama, History, Romance",8.0,10765," Kirstie Alley, Georg Stanford Brown, David Carradine, Philip Casnoff"
+4, Холодный дом ,2005,510,"Crime, Drama",8.3,9711," Anna Maxwell Martin, Carey Mulligan, Denis Lawson, Gillian Anderson"
+5, Мастер и Маргарита ,2005,500,"Drama, Fantasy, Mystery",7.5,4115," Aleksandr Abdulov, Oleg Basilashvili, Vano Miranyan, Semyon Furman"
+6, Крэнфорд ,2007,469,Drama,8.3,9637," Judi Dench, Imelda Staunton, Julia McKenzie, Lisa Dillon"
+7, Война и мир ,1965,453,"Drama, History, Romance",8.3,7244, Sergey Bondarchuk 
+8, В круге первом ,2006,440,Drama,7.2,301," Evgeniy Mironov, Dmitriy Pevtsov, Sergey Karyakin, Aleksey Kolubkov"
+9, A Dance to the Music of Time ,1997,416,Drama,7.5,490," Gillian Barge, Nicholas Jones, Simon Russell Beale, Robin Bailey"
+10, Ветер перемен ,1994,375,"Drama, History, Romance",7.5,2518," Douglas Hodge, Juliet Aubrey, Trevyn McDowell, Jonathan Firth"
+11, Наш общий друг ,1998,350,Drama,8.1,2484," Paul McGann, Keeley Hawes, Dominic Mafham, David Bradley"
+12, Конец парада ,2012,287,"Action, Drama, Romance",7.5,10191," Benedict Cumberbatch, Rebecca Hall, Roger Allam, Adelaide Clemens"
+13, Она же Грэйс ,2017,267,"Biography, Crime, Drama",7.7,31906," Sarah Gadon, Edward Holcroft, Rebecca Liddiard, Zachary Levi"
+14, White Teeth ,2002,240,"Drama, Comedy",7.3,712," Om Puri, Phil Davis, Naomie Harris, Archie Panjabi"
+15, Он так и знал ,2004,240,Drama,6.9,1648," Oliver Dimsdale, Christina Cole, Laura Fraser, Nathan Heath"
+16, Унесенные ветром ,1939,238,"Drama, Romance, War",8.2,311001," Victor Fleming, George Cukor, Sam Wood "
+17, Темное королевство ,2000,232,"Adventure, Comedy, Drama",7.2,2969," Warren Mitchell, Jonathan Rhys Meyers, Celia Imrie, John Sessions"
+18, The Buddha of Suburbia ,1993,222,"Comedy, Drama",7.3,444," Naveen Andrews, David Bamber, Harish Patel, Brenda Blethyn"
+19, Бен-Гур ,1959,212,"Adventure, Drama, History",8.1,236289, William Wyler 
+20, The Crow Road ,1996,211,Drama,8.2,680," Joe McFadden, Bill Paterson, Peter Capaldi, Valerie Edmond"
+21, Troubles ,1988,208,Drama,6.8,72," Ian Charleson, Ian Richardson, Cathleen Delany, Emer Gillespie"
+22, Властелин колец: Возвращение короля ,2003,201,"Action, Adventure, Drama",9.0,1783639, Peter Jackson 
+23, Доктор Живаго ,1965,197,"Drama, Romance, War",7.9,75886, David Lean 
+24, Мэр Кастербриджа ,2003,196,Drama,7.7,1433, David Thacker 
+25, Список Шиндлера ,1993,195,"Biography, Drama, History",9.0,1320861, Steven Spielberg 
+26, Алиса в стране чудес ,1985,187,"Adventure, Family, Fantasy",7.2,3050," Natalie Gregory, Sheila Allen, Red Buttons, Anthony Newley"
+27, Леопард ,1963,186,"Drama, History",8.0,25674, Luchino Visconti 
+28, Тэсс ,1979,186,"Drama, Romance",7.3,16603, Roman Polanski 
+29, Путешествия Гулливера ,1996,186,"Adventure, Drama, Family",6.9,6723," Ted Danson, Mary Steenburgen, James Fox, Robert Hardy"
+30, Геста Берлинг ,1924,183,"Drama, Romance",7.0,1253, Mauritz Stiller 
+31, Бархатные пальчики ,2005,181,"Crime, Drama, Romance",7.8,8917," Elaine Cassidy, Sally Hawkins, Imelda Staunton, Rupert Evans"
+32, О дивный новый мир ,1980,180,"Drama, Sci-Fi",6.6,1026, Burt Brinckerhoff 
+33, Маленький остров ,2009,180,Drama,7.5,1479," Naomie Harris, Hugh Quarshie, Ruth Wilson, David Oyelowo"
+34," Кристин, дочь Лавранса ",1995,180,Drama,4.5,993, Liv Ullmann 
+35, Властелин колец: Две крепости ,2002,179,"Action, Adventure, Drama",8.8,1610895, Peter Jackson 
+36, Doktor Faustus ,1982,179,Drama,6.7,129, Franz Seitz 
+37, Властелин колец: Братство кольца ,2001,178,"Action, Adventure, Drama",8.8,1804763, Peter Jackson 
+38, Бархатные ножки ,2002,177,"Drama, Romance",7.7,8101," Rachael Stirling, Keeley Hawes, Jodhi May, Bernice Stegers"
+39, Линия красоты ,2006,177,"Drama, Romance",7.4,1752," Dan Stevens, Tim McInnerny, Hayley Atwell, Alice Krige"
+40, Неизвестный солдат ,1955,177,"Drama, War",8.0,7424, Edvin Laine 
+41, Крестный отец ,1972,175,"Crime, Drama",9.2,1791787, Francis Ford Coppola 
+42, Арабские приключения ,2000,175,"Adventure, Family, Fantasy",7.4,5232," Mili Avital, Alan Bates, James Frain, Tchéky Karyo"
+43, Облачный атлас ,2012,172,"Drama, Mystery, Sci-Fi",7.4,360003," Tom Tykwer, Lana Wachowski, Lilly Wachowski "
+44, Любимая ,1998,172,"Drama, History, Horror",6.0,9002, Jonathan Demme 
+45, Невыносимая лёгкость бытия ,1988,171,"Drama, Romance",7.3,36027, Philip Kaufman 
+46, Камо грядеши? ,1951,171,"Biography, Drama, History",7.1,15100," Mervyn LeRoy, Anthony Mann "
+47, По ком звонит колокол ,1943,170,"Adventure, Drama, History",6.8,9309, Sam Wood 
+48, Макс Хавелар ,1976,170,Drama,7.1,934, Fons Rademakers 
+49, Пармская обитель ,1948,170,"Drama, Romance",7.0,441, Christian-Jaque 
+50, Хоббит: Нежданное путешествие ,2012,169,"Adventure, Fantasy",7.8,805674, Peter Jackson 
+51, Обретенное время ,1999,169,"Drama, Romance, War",6.7,2564, Raúl Ruiz 
+52, Вдали от безумной толпы ,1967,168,"Drama, History, Romance",7.2,5784, John Schlesinger 
+53, Солярис ,1972,167,"Drama, Mystery, Sci-Fi",8.0,89985, Andrei Tarkovsky 
+54, Вокруг света за 80 дней ,1956,167,"Adventure, Comedy, Family",6.7,27324," Michael Anderson, John Farrow "
+55, Идиот ,1951,166,"Drama, Romance",7.2,5091, Akira Kurosawa 
+56, Блондинка ,2001,165,"Biography, Drama",6.1,1000," Titus Welliver, Eric Bogosian, Niklaus Lange, Richard Roxburgh"
+57, Птичья песня ,2012,165,"Drama, History, Romance",7.3,5794," Eddie Redmayne, Clémence Poésy, Matthew Goode, Rory Keenan"
+58, На свете есть не только апельсины ,1989,165,Drama,7.7,985," Geraldine McEwan, Elizabeth Spriggs, Freda Dowie, Peter Gordon"
+59, Последнее искушение Христа ,1988,164,Drama,7.5,57060, Martin Scorsese 
+60, Поездка в Индию ,1984,164,"Adventure, Drama, History",7.3,18809, David Lean 
+61, Хранители ,2009,162,"Action, Drama, Mystery",7.6,542834, Zack Snyder 
+62, Английский пациент ,1996,162,"Drama, Romance, War",7.4,188636, Anthony Minghella 
+63, Молчание ,2016,161,"Drama, History",7.1,111123, Martin Scorsese 
+64, Из Африки ,1985,161,"Biography, Drama, Romance",7.1,79086, Sydney Pollack 
+65, Жерминаль ,1993,160,"Drama, Romance",7.1,5240, Claude Berri 
+66, Незнакомка из Уайлдфелл-Холла ,1996,159,Drama,7.3,2816," Toby Stephens, Tara Fitzgerald, Rupert Graves, Sarah Badel"
+67, Регтайм ,1981,155,Drama,7.3,9704, Milos Forman 
+68, Цветы лиловые полей ,1985,154,Drama,7.7,85646, Steven Spielberg 
+69, Лорд Джим ,1965,154,"Adventure, Drama, Romance",6.7,3896, Richard Brooks 
+70, Лолита ,1962,153,"Crime, Drama, Romance",7.5,100064, Stanley Kubrick 
+71, Империя Солнца ,1987,153,"Drama, History, War",7.7,124195, Steven Spielberg 
+72, Волшебная гора ,1982,153,Drama,6.4,459, Hans W. Geissendörfer 
+73, На западном фронте без перемен ,1930,152,"Drama, War",8.1,60974, Lewis Milestone 
+74, Путеводитель по Галактике для автостопщиков ,1981,152,"Adventure, Comedy, Sci-Fi",8.0,10981," Simon Jones, David Dixon, Peter Jones, Sandra Dickinson"
+75, Chocky ,1984,151,"Drama, Sci-Fi",7.7,363," Carol Drinkwater, James Hazeldine, Andrew Ellams, Zoë Hart"
+76, Будденброки ,2008,151,Drama,5.9,1515, Heinrich Breloer 
+77, Контакт ,1997,150,"Drama, Mystery, Sci-Fi",7.5,271073, Robert Zemeckis 
+78, Любовь в холодном климате ,2001,150,Drama,7.0,853," Elisabeth Dermot Walsh, Javier Alcina, Rosamund Pike, Megan Dodds"
+79, Нана ,1926,150,"Drama, Romance",6.6,876, Jean Renoir 
+80, 2001 год: Космическая одиссея ,1968,149,"Adventure, Sci-Fi",8.3,653720, Stanley Kubrick 
+81, Парфюмер: История одного убийцы ,2006,147,"Crime, Drama, Fantasy",7.5,247371, Tom Tykwer 
+82, Сияние ,1980,146,"Drama, Horror",8.4,989018, Stanley Kubrick 
+83, Дети полуночи ,2012,146,Drama,6.2,3184, Deepa Mehta 
+84, Мемуары гейши ,2005,145,"Drama, Romance",7.3,147701, Rob Marshall 
+85, На краю лезвия ,1946,145,"Drama, Romance",7.3,6105, Edmund Goulding 
+86, Братья Карамазовы ,1958,145,"Drama, Romance",6.7,2799, Richard Brooks 
+87, Казино Рояль ,2006,144,"Action, Adventure, Thriller",8.0,646438, Martin Campbell 
+88, Хоббит: Битва пяти воинств ,2014,144,"Adventure, Fantasy",7.4,515659, Peter Jackson 
+89, Портрет леди ,1996,144,"Drama, Romance",6.2,11861, Jane Campion 
+90, Хижина дяди Тома ,1927,144,"Drama, History",6.8,449, Harry A. Pollard 
+91, Великий Гэтсби ,2013,143,"Drama, Romance",7.2,529222, Baz Luhrmann 
+92, Ночь нежна ,1962,142,Drama,6.0,778, Henry King 
+93, Жестяной барабан ,1979,142,"Drama, War",7.5,24076, Volker Schlöndorff 
+94, Говардс-Энд ,1992,142,"Drama, Romance",7.4,32269, James Ivory 
+95, Грек Зорба ,1964,142,"Comedy, Drama",7.6,22422, Michael Cacoyannis 
+96, Айвенго ,1982,142,"Adventure, Drama, Romance",6.7,4950, Douglas Camfield 
+97, Ярмарка тщеславия ,2004,141,Drama,6.2,22577, Mira Nair 
+98, Дом духов ,1993,140,"Drama, Romance",6.9,22835, Bille August 
+99, Без судьбы ,2005,140,"Drama, Romance, War",7.0,6841, Lajos Koltai 
+100, Татарская пустыня ,1976,140,"Drama, History, War",7.5,2233, Valerio Zurlini 
+101, Дом и мир ,1984,140,Drama,7.5,1678, Satyajit Ray 
+102, Несколько дней из жизни И,1980,140,"Comedy, Drama, History",7.6,2283, Nikita Mikhalkov 
+103, Талантливый мистер Рипли ,1999,139,"Crime, Drama, Thriller",7.4,206009, Anthony Minghella 
+104, Эпоха невинности ,1993,139,"Drama, Romance",7.2,59374, Martin Scorsese 
+105, Любовь во время холеры ,2007,139,"Drama, Romance",6.4,23284, Mike Newell 
+106, Сказание о принцессе Кагуя ,2013,137,"Animation, Drama, Family",8.0,45493, Isao Takahata 
+107, Сестры - близнецы ,2002,137,"Drama, Romance, War",7.4,6670, Ben Sombogaart 
+108, Заводной апельсин ,1971,136,"Crime, Sci-Fi",8.3,812256, Stanley Kubrick 
+109, Разум и чувства ,1995,136,"Drama, Romance",7.7,114107, Ang Lee 
+110, Мир по Гарпу ,1982,136,"Comedy, Drama",7.1,26794, George Roy Hill 
+111, Обитель радости ,2000,135,"Romance, Drama",7.0,7542, Terence Davies 
+112, На исходе дня ,1993,134,"Drama, Romance",7.8,73376, James Ivory 
+113, Отверженные ,1998,134,"Crime, Drama, History",7.4,40954, Bille August 
+114, Хладнокровно ,1967,134,"Biography, Crime, Drama",7.9,26448, Richard Brooks 
+115, Хроники любви ,2016,134,"Drama, Romance, War",6.3,1415, Radu Mihaileanu 
+116, Пролетая над гнездом кукушки ,1975,133,Drama,8.7,986246, Milos Forman 
+117, Девятые врата ,1999,133,"Mystery, Thriller",6.7,180311, Roman Polanski 
+118, Николас Никлби ,2002,132,"Adventure, Drama, Romance",7.1,12497, Douglas McGrath 
+119, Оскар и Люсинда ,1997,132,"Drama, Romance",6.6,6853, Gillian Armstrong 
+120, Улисс ,1967,132,Drama,6.4,904, Joseph Strick 
+121, Праздник козла ,2005,132,Drama,6.4,852, Luis Llosa 
+122, Граф Монте-Кристо ,2002,131,"Action, Adventure, Drama",7.7,136884, Kevin Reynolds 
+123, Пианистка ,2001,131,"Drama, Music",7.5,63215, Michael Haneke 
+124, Влюбленные женщины ,1969,131,"Drama, Romance",7.1,7719, Ken Russell 
+125, Выбор капитана Корелли ,2001,131,"Drama, Music, Romance",5.9,34310, John Madden 
+126, Ребекка ,1940,130,"Drama, Film-Noir, Mystery",8.1,135487, Alfred Hitchcock 
+127, Имя розы ,1986,130,"Drama, History, Mystery",7.7,107860, Jean-Jacques Annaud 
+128, Дэвид Копперфилд ,1935,130,"Adventure, Drama, Family",7.4,4259, George Cukor 
+129, Фундаменталист поневоле ,2012,130,"Drama, Thriller",6.8,14107, Mira Nair 
+130, И восходит солнце ,1957,130,Drama,6.2,2387, Henry King 
+131, Убить пересмешника ,1962,129,"Crime, Drama",8.3,312484, Robert Mulligan 
+132, Гроздья гнева ,1940,129,Drama,8.1,91964, John Ford 
+133, Путешествие к центру Земли ,1959,129,"Adventure, Family, Fantasy",7.0,17455, Henry Levin 
+134, Воспоминания о будущем ,2014,129,"Biography, Drama, History",7.2,28805, James Kent 
+135," Загнанных лошадей пристреливают, не правда ли? ",1969,129,Drama,7.8,19105, Sydney Pollack 
+136, Том Джонс ,1963,129,"Adventure, Comedy, History",6.4,13001, Tony Richardson 
+137, Год зайца ,1977,129,"Comedy, Drama",7.6,1284, Risto Jarva 
+138, Повесть о двух городах ,1935,128,"Drama, History, Romance",7.8,5722," Jack Conway, Robert Z. Leonard "
+139, Жизнь Пи ,2012,127,"Adventure, Drama, Fantasy",7.9,618542, Ang Lee 
+140," Шпион, выйди вон! ",2011,127,"Drama, Mystery, Thriller",7.0,200111, Tomas Alfredson 
+141, Правила виноделов ,1999,126,"Drama, Romance",7.4,98203, Lasse Hallström 
+142, Костёр тщеславий ,1990,125,"Comedy, Drama, Romance",5.6,24944, Brian De Palma 
+143, Чтец ,2008,124,"Drama, Romance",7.6,242198, Stephen Daldry 
+144, На дороге ,2012,124,"Adventure, Drama, Romance",6.0,41677, Walter Salles 
+145, Женщина французского лейтенанта ,1981,124,"Drama, Romance",6.9,13656, Karel Reisz 
+146, Wo ai chu fang ,1997,124,"Drama, Romance",7.0,223, Ho Yim 
+147, Интервью с вампиром ,1994,123,"Drama, Fantasy, Horror",7.5,315854, Neil Jordan 
+148, Искупление ,2007,123,"Drama, Mystery, Romance",7.8,273305, Joe Wright 
+149, Джуд ,1996,123,"Drama, Romance",6.9,10575, Michael Winterbottom 
+150, Молл Флэндерс ,1996,123,"Drama, Romance",6.4,4310, Pen Densham 
+151, Билли Бад ,1962,123,"Adventure, Drama, War",7.8,4384, Peter Ustinov 
+152, Luo tuo Xiang Zi ,1982,123,Drama,7.1,168, Zifeng Ling 
+153, Уловка 22 ,1970,122,"Comedy, Drama, War",7.1,25010, Mike Nichols 
+154, Маленькие женщины ,1949,122,"Drama, Family, Romance",7.2,7476, Mervyn LeRoy 
+155, Тезки ,2006,122,Drama,7.5,20573, Mira Nair 
+156, Полковнику никто не пишет ,1999,122,Drama,6.7,1150, Arturo Ripstein 
+157, Чёрная орхидея ,2006,121,"Crime, Drama, Mystery",5.6,74029, Brian De Palma 
+158, Снежное чувство Смиллы ,1997,121,"Crime, Drama, Mystery",6.3,14548, Bille August 
+159, Эмма ,1996,120,"Comedy, Drama, Romance",6.6,38860, Douglas McGrath 
+160, Яков лжец ,1999,120,"Drama, War",6.5,17240, Peter Kassovitz 
+161, Консервный ряд ,1982,120,"Comedy, Drama, Romance",6.6,3758, David S. Ward 
+162, Последний рыцарь ,2000,120,"Adventure, Comedy, Romance",6.1,1679, Peter Yates 
+163, Тихий американец ,1958,120,"Drama, Romance, Thriller",6.7,1904, Joseph L. Mankiewicz 
+164, Лунный камень ,1996,120,"Crime, Drama, Mystery",6.6,513, Robert Bierman 
+165, Boquitas pintadas ,1974,120,Drama,6.9,260, Leopoldo Torre Nilsson 
+166, Kokoro ,1955,120,Drama,7.3,441, Kon Ichikawa 
+167, Высотка ,2015,119,"Drama, Sci-Fi",5.5,42270, Ben Wheatley 
+168, Интим ,2001,119,"Drama, Romance",6.1,12175, Patrice Chéreau 
+169, Опасные связи ,1988,119,"Drama, Romance",7.6,69472, Stephen Frears 
+170, Коллекционер ,1965,119,"Drama, Thriller",7.5,10743, William Wyler 
+171, Процесс ,1962,119,"Drama, Mystery, Thriller",7.6,21381, Orson Welles 
+172, Измеряя мир ,2012,119,"Biography, Drama, History",5.7,2798, Detlev Buck 
+173, Бесчестье ,2008,119,Drama,6.5,5530, Steve Jacobs 
+174, Жизнь ,2016,119,Drama,6.3,1201, Stéphane Brizé 
+175, Cтрах и ненависть в Лас-Вегасе ,1998,118,"Adventure, Comedy, Drama",7.5,278267, Terry Gilliam 
+176, Гордость и предубеждение ,1940,118,"Drama, Romance",7.4,8348, Robert Z. Leonard 
+177, Большие надежды ,1946,118,"Adventure, Drama, Mystery",7.8,24302, David Lean 
+178, Тайна отца Амаро ,2002,118,"Drama, Romance",6.7,13811, Carlos Carrera 
+179, Пригоршня праха ,1988,118,"Drama, Romance",6.6,2051, Charles Sturridge 
+180, Сестра Кэрри ,1952,118,"Drama, Romance",7.3,2427, William Wyler 
+181, Бегущий по лезвию ,1982,117,"Action, Drama, Sci-Fi",8.1,751553, Ridley Scott 
+182, Комната с видом ,1985,117,"Drama, Romance",7.2,43402, James Ivory 
+183, Маг ,1968,117,"Drama, Fantasy, Mystery",5.6,1739, Guy Green 
+184," Город, похожий на Элис ",1956,117,"Drama, Romance, War",7.2,1670, Jack Lee 
+185, На Чёрной горе ,1988,117,Drama,6.6,169, Andrew Grieve 
+186, Цельнометаллическая оболочка ,1987,116,"Drama, War",8.3,726496, Stanley Kubrick 
+187, Моби Дик ,1956,116,"Adventure, Drama",7.3,19935, John Huston 
+188, Расцвет мисс Джин Броди ,1969,116,"Comedy, Drama, Romance",7.6,9122, Ronald Neame 
+189, Неукротимые сердца ,2000,116,"Drama, Romance, Western",5.8,14964, Billy Bob Thornton 
+190, Оливер Твист ,1948,116,Drama,7.8,12440, David Lean 
+191, Посредник ,1971,116,"Drama, Romance",7.2,5769, Joseph Losey 
+192, Куда боятся ступить ангелы ,1991,116,"Drama, Romance",6.3,2276, Charles Sturridge 
+193, Justine ,1969,116,"Drama, Mystery, Romance",5.5,493," George Cukor, Joseph Strick "
+194, Бесы ,1988,116,Drama,6.3,605, Andrzej Wajda 
+195, The Diary of a Nobody ,2007,116,Comedy,7.3,76, Susanna White 
+196, Завтрак у Тиффани ,1961,115,"Comedy, Drama, Romance",7.6,177762, Blake Edwards 
+197, Обед нагишом ,1991,115,Drama,6.9,51255, David Cronenberg 
+198, Любовник ,1992,115,"Biography, Drama, Romance",6.8,21214, Jean-Jacques Annaud 
+199," Я, робот ",2004,115,"Action, Mystery, Sci-Fi",7.1,531326, Alex Proyas 
+200, Долгое жаркое лето ,1958,115,Drama,7.3,10933, Martin Ritt 
+201, Собор Парижской Богоматери ,1956,115,"Drama, History, Horror",6.6,2735, Jean Delannoy 
+202, Жёлтые обои ,2012,115,Thriller,6.3,1933, Logan Thomas 
+203, To the Lighthouse ,1983,115,Drama,6.2,220, Colin Gregg 
+204, Пари ,1995,115,"Drama, Romance",6.6,868, Dariush Mehrjui 
+205, Глубокий сон ,1946,114,"Crime, Film-Noir, Mystery",7.9,84841, Howard Hawks 
+206, Саймон Бирч ,1998,114,"Comedy, Drama, Family",6.8,21316, Mark Steven Johnson 
+207, Возрождение ,1997,114,"Biography, Drama, History",7.0,2401, Gillies MacKinnon 
+208, Мадам Бовари ,1949,114,"Drama, Romance",7.0,2629, Vincente Minnelli 
+209, The Magician of Lublin ,1979,114,Drama,5.8,159, Menahem Golan 
+210, Ласарильо из Тормеса ,1959,114,"Comedy, Drama",6.2,167, César Fernández Ardavín 
+211, 1984 ,1984,113,"Drama, Sci-Fi",7.1,71759, Michael Radford 
+212, Почтальон всегда звонит дважды ,1946,113,"Crime, Drama, Film-Noir",7.4,20630, Tay Garnett 
+213, Их глаза видели Бога ,2005,113,"Drama, Romance",6.4,2885, Darnell Martin 
+214, Пробуждение желаний ,1989,113,"Action, Drama, Romance",6.2,1498, Ken Russell 
+215, Ким ,1950,113,"Adventure, Drama, Family",6.5,2041, Victor Saville 
+216, Элементарные частицы ,2006,113,"Drama, Romance",6.6,8097, Oskar Roehler 
+217, Сага о Форсайтах ,1949,113,"Drama, Romance",6.6,1350, Compton Bennett 
+218, Красное и черное ,1954,113,"Drama, Romance",6.7,634, Claude Autant-Lara 
+219, Последний из могикан ,1992,112,"Action, Adventure, Drama",7.7,166559, Michael Mann 
+220, Мэнсфилд Парк ,1999,112,"Comedy, Drama, Romance",7.0,23876, Patricia Rozema 
+221, Долгое прощание ,1973,112,"Comedy, Crime, Drama",7.5,30862, Robert Altman 
+222," Шпион, пришедший с холода ",1965,112,"Drama, Thriller",7.6,17023, Martin Ritt 
+223, Под вулканом ,1984,112,Drama,6.9,5544, John Huston 
+224, Голод ,1966,112,Drama,7.8,3114, Henning Carlsen 
+225, A Soldier's Sweetheart ,1998,112,"Drama, War",6.1,638, Thomas Michael Donnelly 
+226, Жервеза ,1956,112,Drama,7.4,1469, René Clément 
+227, Кес ,1969,111,"Drama, Family",7.9,20720, Ken Loach 
+228, Корабельные новости ,2001,111,Drama,6.7,32949, Lasse Hallström 
+229, Половина желтого солнца ,2013,111,"Drama, Romance",6.0,1986, Biyi Bandele 
+230, Часы ,2002,110,"Drama, Romance",7.5,130884, Stephen Daldry 
+231, Портрет Дориана Грея ,1945,110,"Drama, Fantasy, Horror",7.5,13088, Albert Lewin 
+232, Завтрак для чемпионов ,1999,110,Comedy,4.5,7964, Alan Rudolph 
+233, Шум и ярость ,1959,110,Drama,6.2,893, Martin Ritt 
+234, Murasaki Shikibu: Genji monogatari ,1987,110,"Animation, Drama, History",6.6,230, Gisaburô Sugii 
+235, Убийца внутри меня ,2010,109,"Crime, Drama, Thriller",6.1,34242, Michael Winterbottom 
+236, Женщина в белом ,1948,109,"Drama, Mystery, Romance",6.6,1560, Peter Godfrey 
+237, Побудь в моей шкуре ,2013,108,"Drama, Horror, Mystery",6.3,140778, Jonathan Glazer 
+238, Американская пастораль ,2016,108,"Crime, Drama",6.1,16674, Ewan McGregor 
+239, Предчувствие конца ,2017,108,"Drama, Mystery",6.3,6726, Ritesh Batra 
+240, Приключения Гекльберри Финна ,1993,108,"Adventure, Comedy, Drama",6.2,8565, Stephen Sommers 
+241, Абсолютные новички ,1986,108,"Drama, Musical, Romance",5.6,3411, Julien Temple 
+242, Я не боюсь ,2003,108,"Crime, Drama, Mystery",7.4,15007, Gabriele Salvatores 
+243, Французская сюита ,2014,107,"Drama, Romance, Thriller",7.0,26183, Saul Dibb 
+244, Шёлк ,2007,107,"Drama, Romance",5.8,11381, François Girard 
+245, Страх и трепет ,2003,107,"Comedy, Drama",7.0,4529, Alain Corneau 
+246, Похищенный ,1971,107,"Adventure, Drama",6.2,1373, Delbert Mann 
+247, Степной волк ,1974,107,Drama,6.1,1199, Fred Haines 
+248, Gruppenbild mit Dame ,1977,107,"Drama, History, Romance",5.7,355, Aleksandar Petrovic 
+249, Markens grøde ,1921,107,Drama,6.5,236, Gunnar Sommerfeldt 
+250, Три мушкетера ,1973,106,"Action, Adventure",7.1,18051, Richard Lester 
+251, Запятнанная репутация ,2003,106,"Drama, Romance, Thriller",6.2,30903, Robert Benton 
+252, Свет вокруг ,2005,106,"Comedy, Drama",7.4,58321, Liev Schreiber 
+253, Билли Батгейт ,1991,106,"Crime, Drama, Thriller",5.9,12003, Robert Benton 
+254, Она ,1965,106,"Adventure, Fantasy",5.8,3262, Robert Day 
+255, Онегин ,1999,106,"Drama, Romance",6.8,7898, Martha Fiennes 
+256, О мышах и людях ,1939,106,"Adventure, Drama",7.9,6031, Lewis Milestone 
+257, Мудрая кровь ,1979,106,"Comedy, Drama",6.9,5841, John Huston 
+258, Поруганная честь Катарины Блюм ,1975,106,"Crime, Drama",7.3,4414," Volker Schlöndorff, Margarethe von Trotta "
+259, Любовь и мрак ,1994,105,"Drama, Romance, Thriller",5.0,2171, Betty Kaplan 
+260, История 'О' ,1975,105,Drama,5.2,6331, Just Jaeckin 
+261, Как вода для шоколада ,1992,105,"Drama, Romance",7.1,17873, Alfonso Arau 
+262, Цементный сад ,1993,105,Drama,7.0,4816, Andrew Birkin 
+263, Неуютная ферма ,1995,105,"Comedy, Romance",7.2,7058, John Schlesinger 
+264, Зов предков ,1972,105,"Adventure, Family, Western",6.0,1807, Ken Annakin 
+265, Последнее солнце ,2001,105,Drama,7.6,7119, Walter Salles 
+266, The Heart of the Matter ,1953,105,"Crime, Drama",6.7,480, George More O'Ferrall 
+267, The Good Soldier ,1981,105,"Drama, Romance",6.9,163, Kevin Billington 
+268, Dervis i smrt ,1974,105,Drama,7.0,317, Zdravko Velimirovic 
+269, Трава поёт ,1981,105,Drama,5.0,179, Michael Raeburn 
+270, Любовник леди Чаттерлей ,1981,104,"Drama, Romance",5.1,2840, Just Jaeckin 
+271, Третий человек ,1949,104,"Film-Noir, Mystery, Thriller",8.1,169828, Carol Reed 
+272, Бойня номер пять ,1972,104,"Comedy, Drama, Sci-Fi",6.8,13018, George Roy Hill 
+273, Грозовой перевал ,1939,104,"Drama, Romance",7.5,18029, William Wyler 
+274, Осколки ,2007,104,Drama,6.9,2578, Jeremy Podeswa 
+275, Посторонний ,1967,104,Drama,7.2,2617, Luchino Visconti 
+276, Беглец ,1947,104,"Drama, History",6.3,2383," John Ford, Emilio Fernández "
+277, Native Son ,1951,104,"Drama, Film-Noir",6.2,384, Pierre Chenal 
+278, One Day in the Life of Ivan Denisovich ,1970,104,Drama,7.1,576, Casper Wrede 
+279, Согласно Перейре ,1995,104,Drama,7.1,1352, Roberto Faenza 
+280, Не отпускай меня ,2010,103,"Drama, Romance, Sci-Fi",7.1,144943, Mark Romanek 
+281, Машина времени ,1960,103,"Adventure, Romance, Sci-Fi",7.5,40940, George Pal 
+282, Вероника решает умереть ,2009,103,"Drama, Romance",6.3,12646, Emily Young 
+283," Заплачь, любимая страна ",1951,103,Drama,7.0,850, Zoltan Korda 
+284, Сыновья и любовники ,1960,103,Drama,7.1,1588, Jack Cardiff 
+285, Schachnovelle ,1960,103,"Drama, Sport, War",6.9,578, Gerd Oswald 
+286, Американский психопат ,2000,102,"Crime, Drama, Horror",7.6,574909, Mary Harron 
+287, Реквием по мечте ,2000,102,Drama,8.3,823505, Darren Aronofsky 
+288, Милый друг ,2012,102,"Crime, Drama, History",5.4,18601," Declan Donnellan, Nick Ormerod "
+289, Конец романа ,1999,102,"Drama, Romance",7.0,22806, Neil Jordan 
+290, Крылья голубки ,1997,102,"Drama, Romance",7.1,12357, Iain Softley 
+291, Одержимость ,2002,102,"Drama, Mystery, Romance",6.3,13306, Neil LaBute 
+292, Дельта Венеры ,1995,102,Drama,4.7,2162, Zalman King 
+293, Белые ночи ,1957,102,"Drama, Romance",7.8,8120, Luchino Visconti 
+294, Загадки песков ,1979,102,"Adventure, Drama, Thriller",6.3,1243, Tony Maylam 
+295, Метаморфозы ,2014,102,"Drama, Fantasy",5.3,826, Christophe Honoré 
+296, Тереза Ракен ,1953,102,"Crime, Drama, Romance",7.3,1611, Marcel Carné 
+297, Приключения Алисы в стране чудес ,1972,101,"Adventure, Family, Fantasy",5.6,1667, William Sterling 
+298, The Return of the Native ,1994,101,Drama,6.0,700, Jack Gold 
+299, Portnoy's Complaint ,1972,101,Comedy,5.4,442, Ernest Lehman 
+300, Монах ,2011,101,"Drama, Mystery, Thriller",5.8,3926, Dominik Moll 
+301, Цветы любви ,1997,101,"Comedy, Drama, Romance",6.3,1433, Robert Bierman 
+302, La princesse de Clèves ,1961,101,"Drama, History, Romance",6.1,407, Jean Delannoy 
+303, Посмертные записки ,2001,101,"Comedy, Drama",6.9,854, André Klotzel 
+304, Автокатастрофа ,1996,100,Drama,6.4,59147, David Cronenberg 
+305, Мальтийский сокол ,1941,100,"Crime, Film-Noir, Mystery",8.0,157037, John Huston 
+306, Невинные ,1961,100,Horror,7.8,30046, Jack Clayton 
+307, Копи царя Соломона ,1985,100,"Action, Adventure, Comedy",5.2,13515, J. Lee Thompson 
+308," Тарзан, человек-обезьяна ",1932,100,"Action, Adventure, Romance",7.0,7497, W.S. Van Dyke 
+309, Пеппи Длинный чулок ,1969,100,"Adventure, Comedy, Drama",7.0,4707, Olle Hellbom 
+310, Терпеливая любовь ,2004,100,"Drama, Mystery, Romance",6.3,10527, Roger Michell 
+311, Дух тьмы ,1993,100,Drama,5.7,1943, Nicolas Roeg 
+312, Рождественская история ,1993,100,"Drama, Family, Fantasy",7.8,14901, Clive Donner 
+313, Человек-зверь ,1984,100,"Crime, Drama",7.6,7657, Jean Renoir 
+314, Ежик ,2009,100,Drama,7.3,9282, Mona Achache 
+315, Hard Times ,1994,100,Drama,6.4,282," Harriet Walter, Bill Paterson, Alan Bates, Beatie Edney"
+316, Развод в большом городе ,2012,99,Drama,7.4,27772," Scott McGehee, David Siegel "
+317, Итэн Фроум ,1993,99,"Drama, Romance",6.2,2145, John Madden 
+318, Пуаро Агаты Кристи ,1989,99,"Crime, Drama, Mystery",7.3,2093, Andrew Grieve 
+319, Меньше нуля ,1987,98,"Crime, Drama",6.4,20330, Marek Kanievska 
+320, Доктор Джекилл и мистер Хайд ,1931,98,"Horror, Sci-Fi",7.6,13766, Rouben Mamoulian 
+321, Широкое Саргассово море ,1993,98,"Drama, Romance, Thriller",5.6,2070, John Duigan 
+322, Экспресс в Марракеш ,1998,98,"Adventure, Drama, Romance",6.0,6687, Gillies MacKinnon 
+323, Двойная ставка ,1993,98,Drama,7.1,2299, Philip Haas 
+324, Отсечённая голова ,1971,98,Comedy,5.3,385, Dick Clement 
+325, Der brave Soldat Schwejk ,1960,98,"Comedy, Drama, War",6.7,600, Axel von Ambesser 
+326, A Portrait of the Artist as a Young Man ,1977,98,Drama,6.2,216, Joseph Strick 
+327, Wir ,1982,98,"Drama, Sci-Fi",6.1,106, Vojtech Jasný 
+328, Девственницы-самоубийцы ,1982,97,"Drama, Romance",7.2,153271, Sofia Coppola 
+329, Джейн Эйр ,1943,97,"Drama, Romance",7.5,8754, Robert Stevenson 
+330, Миссис Дэллоуэй ,1997,97,"Drama, Romance",6.5,3897, Marleen Gorris 
+331, Остров сокровищ ,1950,96,"Adventure, Family",6.9,8294, Byron Haskin 
+332, I Know Why the Caged Bird Sings ,1979,96,"Biography, Drama",7.0,311, Fielder Cook 
+333, Час звезды ,1979,96,Drama,7.3,1281, Suzana Amaral 
+334," Это убийство, моя милочка ",1944,95,"Crime, Drama, Film-Noir",7.5,13403, Edward Dmytryk 
+335, Водная страна ,1992,95,"Drama, Mystery",6.6,2276, Stephen Gyllenhaal 
+336, Анна Каренина ,1935,95,"Drama, Romance",7.0,5392, Clarence Brown 
+337, Секретный агент ,1996,95,"Drama, Thriller",5.6,2406, Christopher Hampton 
+338, Счастливчик Джим ,1957,95,Comedy,6.0,707, John Boulting 
+339, Éducation sentimentale ,1962,95,"Drama, Romance",6.0,145, Alexandre Astruc 
+340, Орландо ,1992,94,"Biography, Drama, Fantasy",7.1,16444, Sally Potter 
+341," Здравствуй, грусть ",1958,94,"Drama, Romance",6.9,5123, Otto Preminger 
+342, Grand Isle ,1991,94,Drama,5.1,187, Mary Lambert 
+343, Тристрам Шенди: История петушка и бычка ,2005,94,Comedy,6.7,12810, Michael Winterbottom 
+344, Дети вод ,1978,94,"Animation, Adventure, Family",6.0,1361," Lionel Jeffries, Miroslaw Kijowicz "
+345," Кролик, беги ",1970,94,Drama,5.5,357, Jack Smight 
+346, На игле ,1996,93,Drama,8.1,675669, Danny Boyle 
+347, Доводы рассудка ,2007,93,"Action, Drama, Family",7.4,15117, Adrian Shergold 
+348, День триффидов ,1963,93,"Horror, Sci-Fi",6.1,8167," Steve Sekely, Freddie Francis "
+349, Иван под экстази ,2000,93,Drama,6.4,1375, Bernard Rose 
+350, Das Schloß ,1968,93,"Drama, Mystery",6.7,263, Rudolf Noelte 
+351, Повелитель мух ,1963,92,"Adventure, Drama, Thriller",6.9,18989, Peter Brook 
+352, Удушье ,2008,92,"Comedy, Drama",6.4,32546, Clark Gregg 
+353, Мисс Петтигрю ,2008,92,"Comedy, Romance",7.0,28257, Bharat Nalluri 
+354, Поезда под пристальным наблюдением ,1966,92,"Comedy, Drama, Romance",7.6,12637, Jirí Menzel 
+355, Брайтонская скала ,1948,92,"Crime, Drama",7.3,6178, John Boulting 
+356, Silas Marner: The Weaver of Raveloe ,1985,92,Drama,7.3,646, Giles Foster 
+357, Мертвые души ,2012,92,Horror,4.5,1865, Colin Theys 
+358, Lives of Girls & Women ,1996,92,Drama,6.3,71, Ronald Wilson 
+359, Враг ,2013,91,"Drama, Mystery, Thriller",6.9,189323, Denis Villeneuve 
+360, Тонкий человек ,1934,91,"Comedy, Mystery",7.9,29363, W.S. Van Dyke 
+361, Мертвый дом ,1932,91,"Biography, Drama",6.2,48, Vasili Fyodorov 
+362, Жюстина маркиза Де Сада ,1969,90,Drama,5.1,1773, Jesús Franco 
+363, Сидр с Роузи ,2015,90,Drama,6.3,772, Philippa Lowthorpe 
+364, Робинзон Крузо ,1954,90,"Adventure, Drama, Family",6.7,4051, Luis Buñuel 
+365, The Mill on the Floss ,1997,90,Drama,6.1,571, Graham Theakston 
+366, Unless ,2016,90,"Drama, Family",5.3,256, Alan Gilsenan 
+367, Алая буква ,1973,90,"Drama, History",5.9,804, Wim Wenders 
+368, Amerika ,1994,90,"Drama, Mystery",6.1,219, Vladimír Michálek 
+369, The Vicar of Wakefield ,1917,90,"Romance, Drama",6.2,43, Ernest C. Warde 
+370, Дом о семи фронтонах ,1940,89,"Drama, Thriller",7.0,1161, Joe May 
+371, Surfacing ,1981,89,"Adventure, Drama",4.3,139, Claude Jutra 
+372, Мать ,1926,89,Drama,7.5,2804, Vsevolod Pudovkin 
+373, The Robber Bride ,2007,89,"Drama, Mystery",5.7,375, David Evans 
+374, Валландер ,2008,89,"Crime, Drama, Mystery",7.4,940, Hettie Macdonald 
+375, Расёмон ,1950,88,"Crime, Drama, Mystery",8.2,166025, Akira Kurosawa 
+376, Маленький принц ,1974,88,"Family, Fantasy, Musical",6.4,3631, Stanley Donen 
+377, Преступление и наказание ,1935,88,"Crime, Drama",6.9,1979, Josef von Sternberg 
+378, Кандид или оптимизм ,1960,88,Comedy,5.8,143, Norbert Carbonnaux 
+379, Tropic of Cancer ,1970,87,"Biography, Drama",5.5,592, Joseph Strick 
+380, The Lost Language of Cranes ,1991,87,"Drama, Romance",7.2,498, Nigel Finch 
+381, The Adventures of Martin Eden ,1942,87,"Action, Adventure, Crime",5.7,143, Sidney Salkow 
+382, Старик и море ,1958,86,"Adventure, Drama",6.9,7800," John Sturges, Fred Zinnemann "
+383, 39 cтупеней ,1935,86,"Crime, Mystery, Thriller",7.6,56488, Alfred Hitchcock 
+384, Дамы Булонского леса ,1945,86,"Drama, Romance",7.2,4353, Robert Bresson 
+385, Вoйна миров ,1953,85,"Action, Sci-Fi, Thriller",7.0,35450, Byron Haskin 
+386, Нортенгерское аббатство ,2007,84,"Drama, Romance",7.2,15081, Jon Jones 
+387, Мизинец Будды ,2015,84,Drama,5.4,160, Tony Pemberton 
+388, Бремя страстей человеческих ,1934,83,"Drama, Romance",7.0,7380, John Cromwell 
+389, Герой нашего времени - Бэла ,1967,83,Drama,7.2,80, Stanislav Rostotskiy 
+390," Прощай, оружие ",1932,80,"Drama, Romance, War",6.4,6032, Frank Borzage 
+391, Колодец и маятник ,1961,80,"Drama, Horror, Mystery",7.0,14383, Roger Corman 
+392, Собака Баскервилей ,1939,80,"Horror, Mystery, Thriller",7.4,10453, Sidney Lanfield 
+393, Короткие интервью с подонками ,2009,80,"Comedy, Drama",5.4,3500, John Krasinski 
+394, Шутка ,1969,80,Drama,7.1,1473, Jaromil Jires 
+395, Дом Ашеров ,1960,79,"Drama, Horror",6.9,13361, Roger Corman 
+396, Деревня проклятых ,1960,77,"Horror, Sci-Fi",7.3,16947, Wolf Rilla 
+397, Nada ,1947,76,Drama,6.3,147, Edgar Neville 
+398, Дракула ,1931,75,"Drama, Fantasy, Horror",7.4,51526," Tod Browning, Karl Freund "
+399, Железная пята олигархии ,1998,75,Drama,5.5,142, Aleksandr Bashirov 
+400, Babbitt ,1934,74,Drama,6.0,291, William Keighley 
+401, Звероферма ,1954,72,"Animation, Drama",7.2,17164," Joy Batchelor, John Halas "
+402, Pilgrim's Progress ,1978,72,Adventure,5.4,290, Ken Anderson 
+403, Чeловек-невидимка ,1933,71,"Horror, Sci-Fi",7.6,34548, James Whale 
+404, Франкенштейн ,1931,70,"Drama, Horror, Sci-Fi",7.8,71288, James Whale 
+405, Остров потерянных душ ,1932,70,"Horror, Sci-Fi",7.4,9410, Erle C. Kenton 
+406, Roadhouse Nights ,1930,68,"Crime, Drama, Musical",6.3,110, Hobart Henley 
+407, Рассказ служанки ,2017,60,"Drama, Sci-Fi, Thriller",8.4,217804," Elisabeth Moss, Yvonne Strahovski, Joseph Fiennes, Ann Dowd"
+408, Детективное агентство Дирка Джентли ,2016,60,"Action, Adventure, Comedy",8.2,49939," Samuel Barnett, Elijah Wood, Hannah Marks, Jade Eshete"
+409, Приключения Шерлока Холмса ,1984,60,"Crime, Drama, Mystery",8.7,21947," Jeremy Brett, David Burke, Rosalie Williams, Eric Porter"
+410, Люди Смайли ,1982,60,"Drama, Mystery",8.5,4164," Alec Guinness, Eileen Atkins, Bill Paterson, Vladek Sheybal"
+411, Фанни Хилл ,2007,60,"Drama, Romance",6.5,1112," Rebecca Night, Alison Steadman, Emma Stansfield, Hugo Speer"
+412," Thank You, Jeeves! ",1936,57,Comedy,6.2,273, Arthur Greville Collins 
+413," Непримирившиеся, или Где правит насилие, помогает только насилие ",1965,55,"Drama, History",6.3,752, Jean-Marie Straub 
+414, Путешествие на запад ,1986,45,"Action, Adventure",8.7,1383," Liu Xiao Ling Tong, Dehua Ma, Huaili Yan, Shaohua Xu"
+415, Hong lou meng ,1987,45,Drama,8.6,575," Jie Deng, Fenqiang Ouyang, Xiaoxu Chen, Ting Li"
+416, Eyeless in Gaza ,1971,45,Drama,7.3,14," Michael Gambon, Ian Richardson, Lynn Farleigh, Harry Brooks Jr."
+417, Замок Отранто ,1977,17,"Animation, Short, Horror",6.8,524, Jan Svankmajer 
+418, Nostromo ,1966,117,Drama,6.6,257," Brian Dennehy, Albert Finney, Colin Firth, Roberto Escobar"
+419, Девять ударов за упокой ,1974,52,Mystery,8.1,335," Ian Carmichael, Glyn Houston, Elizabeth Proud, Patrick Jordan"
+420, Смерть по объявлению ,1973,50,Mystery,8.0,311," Ian Carmichael, Mark Eden, Rachel Herbert, Paul Darrow"
+421, Capitu ,2008,75,"Crime, Drama, Mystery",8.9,397," Michel Melamed, Maria Fernanda Cândido, Letícia Persiles, César Cardadeiro"
+422, Money ,2010,90,Drama,5.7,92," Nick Frost, Emma Pierson, Adrian Lukis, Vincent Kartheiser"
+423, Screen Two ,1985,60,Drama,7.9,146, Jack Clayton 
