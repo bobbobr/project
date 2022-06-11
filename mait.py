@@ -11,8 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import streamlit_folium
 from streamlit_folium import st_folium
-import pygeos
-geopandas.options.use_pygeos = True
+
 
 s = pd.read_csv('check.csv')
 st.write(s)
