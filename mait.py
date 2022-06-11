@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import requests
 import folium
-#import geopandas as gpd
+import geopandas as gpd
 import re
 import json
 from selenium import webdriver
