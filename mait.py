@@ -34,5 +34,5 @@ l = gpd.GeoDataFrame(l, geometry = gpd.points_from_xy(l['lon'], l['lat']))
 gl = l.sjoin(lol, how="inner", predicate='intersects')
 
 tut = gl['name'].value_counts()
-lol.set_index('name').assign(tut = tut).plot(column = 'tut', legend = True)
-st.write(gl)
+fig = lol.set_index('name').assign(tut = tut)
+st.write(fig)
