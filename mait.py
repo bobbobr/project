@@ -32,8 +32,13 @@ lol['poly'] = gpd.GeoSeries.from_wkt(lol['poly'])
 lol = gpd.GeoDataFrame(lol, geometry = 'poly')
 l = gpd.GeoDataFrame(l, geometry = gpd.points_from_xy(l['lon'], l['lat']))
 gl = l.sjoin(lol, how="inner", predicate='intersects')
+loljson = lol.to_json()
+loljson = json.loads(loljson)
 
 tut = gl['name'].value_counts()
-itog = lol.set_index('name').assign(tut = tut)
-itog.crs = "EPSG:4326"
+itog = lol.assign(tut = tut)
+#itog.crs = "EPSG:4326"
+#itog.fillna(0)
+#itog['tut'] = itog['tut'].astype(int)
+#itog['
 st.write(itog)
