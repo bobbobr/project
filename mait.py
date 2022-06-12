@@ -94,5 +94,5 @@ df1= df1.dropna()
 df1
 we = nx.Graph([(frm,to) for (frm, to) in df1.values])
 
-nx.draw(we, with_labels=True)
-st.pyplot(fig)
+g4.from_nx(we)
+
