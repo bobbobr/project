@@ -24,8 +24,8 @@ st.subheader("Сперва возьмем данные с помощью про�
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
 sel = st.selectbox("Параметр", p.columns[2::])
-fig = px.line(p, x = p['Year'], y = sel)
-st.plotly_chart(fig)
+fig1 = px.line(p, x = p['Year'], y = sel)
+st.plotly_chart(fig1)
 
 model = LinearRegression()
 model.fit(s[["Min"]], s["Rate"])
