@@ -97,8 +97,11 @@ df1= df1.dropna()
 df1
 hs = []
 for i in range(len(df1.values)):
-    hr.append((df1.values[i][0],df1.values[i][1]))
+    hs.append((df1.values[i][0],df1.values[i][1]))
 we = nx.Graph(hs)
 nx.draw(we)
+fig, ax = plt.subplots()
+pos = nx.kamada_kawai_layout(T,)
+nx.draw(we,pos, with_labels=False)
+st.pyplot(fig)
 
-st.pyplot(we)
