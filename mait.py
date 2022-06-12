@@ -36,9 +36,10 @@ loljson = lol.to_json()
 loljson = json.loads(loljson)
 
 tut = gl['name'].value_counts()
-itog = lol.assign(tut = tut)
-#itog.crs = "EPSG:4326"
-#itog.fillna(0)
-#itog['tut'] = itog['tut'].astype(int)
+itog = lol.set_index('name').assign(tut = tut)
+itog.crs = "EPSG:4326"
+itog.fillna(0)
+itog.reset_index()
+itog['tut'] = itog['tut'].astype(int)
 #itog['
 st.write(itog)
