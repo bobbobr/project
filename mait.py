@@ -15,6 +15,11 @@ from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
 
 s = pd.read_csv('check.csv')
+p = s.groupby('Year').mean().reset_index()
+sel = st.multiselect("Параметр", p[2:])
+fig = px.line(p, x = p['Year'], y = sel)
+st.plotly_chart(fig)
+
 model = LinearRegression()
 model.fit(s[["Min"]], s["Rate"])
 
