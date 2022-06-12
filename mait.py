@@ -42,6 +42,11 @@ itog = itog.fillna(0)
 itog = itog.reset_index()
 itog['tut'] = itog['tut'].astype(int)
 itog['name'] = itog['name'].astype(str)
+m1 = folium.Map([55.75364, 37.648280], zoom_start=10)
+for ind, row in gdf.iterrows():
+    folium.Marker([row.lat, row.lon], radius=30, fill_color='red').add_to(m1)
+
+a=st_folium(m1)
 folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
                   key_on = 'feature.properties.name',
                   fill_color='YlOrRd',
@@ -49,5 +54,5 @@ folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
                   line_opacity=0.2,
                   legend_name='num',
                   highlight=True,
-                  reset=True).add_to(m)
-plo = st_folium(m)
+                  reset=True).add_to(m1)
+plo = st_folium(m1)
