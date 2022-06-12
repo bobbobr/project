@@ -25,7 +25,7 @@ min_array = np.array(s[['Min']])
 rate_array = np.array(s[['Rate']])
 vote_array = np.array(s[['Votes']])
 year_array = np.array(s[['Year']])
-correlation = np.corrcoef(min_array, rate_array, vote_array, year_array)
+correlation = np.corrcoef(min_array, rate_array)
 st.write(correlation)
  
 
