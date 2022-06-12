@@ -41,5 +41,13 @@ itog.crs = "EPSG:4326"
 itog = itog.fillna(0)
 itog = itog.reset_index()
 itog['tut'] = itog['tut'].astype(int)
-#itog['
-st.write(itog)
+itog['name'] = itog['name'].astype(str)
+folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
+                  key_on = 'feature.properties.name',
+                  fill_color='YlOrRd',
+                  fill_opacity=0.7,
+                  line_opacity=0.2,
+                  legend_name='num',
+                  highlight=True,
+                  reset=True).add_to(m)
+plo = st_folium(m)
