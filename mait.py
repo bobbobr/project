@@ -86,7 +86,7 @@ lis = []
 with open('characters.json') as json_file:
     mis = json.load(json_file)
 df = pd.DataFrame(mis)
-df1 = df['id']
+df1 = df['name']
 df1 = pd.DataFrame(df1)
 df1['house'] = df['house']
 df1= df1.dropna()
