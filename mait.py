@@ -14,13 +14,13 @@ from streamlit_folium import st_folium
 
 
 s = pd.read_csv('check.csv')
-st.write(s)
+st.write(s.corr())
 
 l = pd.read_csv('data.csv')
 
 gdf = gpd.GeoDataFrame(l, geometry=gpd.points_from_xy(l['lon'], l['lat']))
 
-st.write(gdf.corr())
+st.write(gdf)
 
 m = folium.Map([55.75364, 37.648280], zoom_start=10)
 for ind, row in gdf.iterrows():
