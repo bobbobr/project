@@ -17,8 +17,6 @@ s = pd.read_csv('check.csv')
 model = LinearRegression()
 model.fit(s[["Rate"]], s["Min"])
 
-model.fit(s[["Min"]], s["Votes"])
-
 number=st.number_input('Insert a number.')
 st.subheader(model.predict(pd.DataFrame([[number]], columns=["Min"]))[0])
 
