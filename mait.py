@@ -44,7 +44,7 @@ itog['tut'] = itog['tut'].astype(int)
 itog['name'] = itog['name'].astype(str)
 m1 = folium.Map([55.75364, 37.648280], zoom_start=10)
 
-folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
+sto = folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
                   key_on = 'feature.properties.name',
                   fill_color='YlOrRd',
                   fill_opacity=0.7,
@@ -52,4 +52,5 @@ folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
                   legend_name='num',
                   highlight=True,
                   reset=True).add_to(m1)
+sto.geojson.add_child(folium.features.GeoJsonTooltip(['name'],labels=False))
 plo = st_folium(m1)
