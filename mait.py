@@ -102,6 +102,7 @@ we = nx.Graph(hs)
 nx.draw(we)
 fig, ax = plt.subplots()
 pos = nx.kamada_kawai_layout(we,)
-nx.draw(we.subgraph(['Gryffindor'] + list(we.neighbors('Gryffindor'))), pos, with_labels=True)
+harry = st.selectbox('Выберите факультет', options = df1['house'].uniqie())
+nx.draw(we.subgraph([harry] + list(we.neighbors(harry))), pos, with_labels=True)
 st.pyplot(fig)
 
