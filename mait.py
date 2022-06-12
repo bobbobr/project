@@ -100,7 +100,7 @@ for i in range(len(df1.values)):
     hs.append((df1.values[i][0],df1.values[i][1]))
 we = nx.Graph(hs)
 nx.draw(we)
-fig, ax = plt.subplots()
+#fig, ax = plt.subplots()
 pos = nx.kamada_kawai_layout(we,)
 nx.draw(we, pos, with_labels=True)
 st.pyplot(fig)
