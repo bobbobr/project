@@ -17,6 +17,8 @@ import plotly.express as px
 import networkx as nx
 import plotly as plt
 
+st.header('Финальный проект. Анализ книг')
+st.markdown("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
 
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
