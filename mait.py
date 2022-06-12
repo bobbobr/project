@@ -93,6 +93,6 @@ df1['house'] = df['house']
 df1= df1.dropna()
 df1
 we = nx.Graph([(frm,to) for (frm, to) in df1.values])
-fig, ax = plt.subplots()
+
 nx.draw(we, with_labels=True)
 st.pyplot(fig)
