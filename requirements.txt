@@ -14,3 +14,4 @@ geopandas
 streamlit_folium
 rtree
 sklearn
+networkx 
