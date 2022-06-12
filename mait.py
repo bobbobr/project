@@ -21,11 +21,11 @@ model.fit(s[["Min"]], s["Rate"])
 number=st.number_input('Insert a number.')
 st.subheader(model.predict(pd.DataFrame([[number]], columns=["Min"]))[0])
 
-min_array = s[['Min']].to_numpy()
-rate_array = s[['Rate']].to_numpy()
-vote_array = s[['Votes']].to_numpy()
-year_array = s[['Year']].to_numpy()
-correlation = np.correlate(min_array, rate_array)
+min_array = array(s[['Min']])
+rate_array = array(s[['Rate']])
+vote_array = array(s[['Votes']])
+year_array = array(s[['Year']])
+correlation = np.corrcoef(min_array, rate_array, vote_array, year_array)
 st.write(correlation)
  
 
