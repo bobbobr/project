@@ -101,7 +101,7 @@ for i in range(len(df1.values)):
 we = nx.Graph(hs)
 nx.draw(we)
 fig, ax = plt.subplots()
-pos = nx.kamada_kawai_layout(T,)
+pos = nx.kamada_kawai_layout(we,)
 nx.draw(we,pos, with_labels=False)
 st.pyplot(fig)
 
