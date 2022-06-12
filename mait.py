@@ -19,7 +19,7 @@ import plotly as plt
 
 st.header('Финальный проект. Анализ книг')
 st.markdown("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
-
+st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и записал их в csv.")
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
 sel = st.selectbox("Параметр", p.columns[2::])
@@ -96,8 +96,5 @@ df1= df1.dropna()
 df1
 we = nx.Graph([(frm,to) for (frm, to) in df1.values])
 nx.draw(we)
-fig, ax = plt.subplots()
-pos = nx.kamada_kawai_layout(we,)
-nx.draw(G,pos, with_labels=True)
-st.pyplot(fig)
+st.pyplot(we)
 
