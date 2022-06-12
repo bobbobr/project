@@ -19,7 +19,8 @@ st.write(s)
 l = pd.read_csv('data.csv')
 
 gdf = gpd.GeoDataFrame(l, geometry=gpd.points_from_xy(l['lon'], l['lat']))
-st.write(gdf)
+
+st.write(gdf.corr())
 
 m = folium.Map([55.75364, 37.648280], zoom_start=10)
 for ind, row in gdf.iterrows():
