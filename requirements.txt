@@ -13,4 +13,4 @@ fake_useragent
 geopandas
 streamlit_folium
 rtree
-sklearn.linear_model
+sklearn
