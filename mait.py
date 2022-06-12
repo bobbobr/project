@@ -15,7 +15,7 @@ from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
 import plotly.express as px
 import networkx as nx
-import plotly as plt
+import matplotlib.pyplot as plt
 import scipy.sparse as sp
 
 st.header('Финальный проект. Анализ книг')
@@ -100,7 +100,7 @@ for i in range(len(df1.values)):
     hs.append((df1.values[i][0],df1.values[i][1]))
 we = nx.Graph(hs)
 nx.draw(we)
-#fig, ax = plt.subplots()
+fig, ax = plt.subplots()
 pos = nx.kamada_kawai_layout(we,)
 nx.draw(we, pos, with_labels=True)
 st.pyplot(fig)
