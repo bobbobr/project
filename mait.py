@@ -96,5 +96,7 @@ df1= df1.dropna()
 df1
 we = nx.Graph([(frm,to) for (frm, to) in df1.values])
 nx.draw(we)
-st.pyplot(we)
-
+fig, ax = plt.subplots()
+pos = nx.kamada_kawai_layout(T,)
+nx.draw(we,pos, with_labels=False)
+st.pyplot(fig)
