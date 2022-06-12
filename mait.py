@@ -16,6 +16,7 @@ from sklearn.linear_model import LinearRegression
 import plotly.express as px
 import networkx as nx
 import plotly as plt
+import scipy.sparse as sp
 
 st.header('Финальный проект. Анализ книг')
 st.markdown("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
