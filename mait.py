@@ -15,6 +15,7 @@ from streamlit_folium import st_folium
 
 s = pd.read_csv('check.csv')
 st.write(s.corr())
+df.st.plot.scatter(x="aces", y="double faults")
 
 l = pd.read_csv('data.csv')
 
