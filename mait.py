@@ -14,9 +14,13 @@ from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
 
 s = pd.read_csv('check.csv')
+model = LinearRegression()
+model.fit(s[["Rate"]], s["Min"])
+st.write(model.coef_, model.intercept_)
+model.fit(s[["Min"]], s["Votes"])
+st.write(model.coef_, model.intercept_)
 
-st.write(s.corr())
-df.st.plot.scatter(x="aces", y="double faults")
+
 
 l = pd.read_csv('data.csv')
 
