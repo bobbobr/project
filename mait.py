@@ -15,6 +15,7 @@ from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
 import plotly.express as px
 import networkx as nx
+import plotly as plt
 
 
 s = pd.read_csv('check.csv')
