@@ -94,5 +94,8 @@ df1= df1.dropna()
 df1
 we = nx.Graph([(frm,to) for (frm, to) in df1.values])
 
-g4.from_nx(we)
+fig, ax = plt.subplots()
+pos = nx.kamada_kawai_layout(we)
+nx.draw(G,pos, with_labels=True)
+st.pyplot(fig)
 
