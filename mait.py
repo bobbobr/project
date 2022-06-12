@@ -94,7 +94,10 @@ df1 = pd.DataFrame(df1)
 df1['house'] = df['house']
 df1= df1.dropna()
 df1
-we = nx.Graph([(frm,to) for (frm, to) in df1.values])
+hr = []
+for i in range(len(df1.values)):
+    hr.append((m[i][0],m[i][1]))
+we = nx.Graph(hr)
 nx.draw(we)
 fig, ax = plt.subplots()
 pos = nx.kamada_kawai_layout(T,)
