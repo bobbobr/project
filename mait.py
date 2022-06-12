@@ -95,10 +95,10 @@ df1 = pd.DataFrame(df1)
 df1['house'] = df['house']
 df1= df1.dropna()
 df1
-hr = []
+hs = []
 for i in range(len(df1.values)):
     hr.append((df1.values[i][0],df1.values[i][1]))
-we = nx.Graph(hr)
+we = nx.Graph(hs)
 nx.draw(we)
 
 st.pyplot(we)
