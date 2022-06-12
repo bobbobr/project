@@ -96,7 +96,7 @@ df1= df1.dropna()
 df1
 hr = []
 for i in range(len(df1.values)):
-    hr.append((m[i][0],m[i][1]))
+    hr.append((df1.values[i][0],df1.values[i][1]))
 we = nx.Graph(hr)
 nx.draw(we)
 fig, ax = plt.subplots()
