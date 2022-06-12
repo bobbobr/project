@@ -35,13 +35,5 @@ gl = l.sjoin(lol, how="inner", predicate='intersects')
 
 tut = gl['name'].value_counts()
 itog = lol.set_index('name').assign(tut = tut)
+itog.crs = "EPSG:4326"
 st.write(itog)
-
-fig = plt.figure()
-    ax = fig.add_subplot(1,1,1)
-
-    ax.scatter(
-        itog["name"],
-        itog["tut"],
-    )
-        st.write(fig)
