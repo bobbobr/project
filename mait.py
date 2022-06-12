@@ -13,6 +13,7 @@ from selenium.webdriver.common.by import By
 import streamlit_folium
 from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
+import plotly.express as px
 
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
