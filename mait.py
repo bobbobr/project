@@ -14,6 +14,8 @@ import streamlit_folium
 from streamlit_folium import st_folium
 from sklearn.linear_model import LinearRegression
 import plotly.express as px
+import networkx as nx
+
 
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
@@ -78,3 +80,18 @@ sto = folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
                   reset=True).add_to(m1)
 sto.geojson.add_child(folium.features.GeoJsonTooltip(['name'],labels=False))
 plo = st_folium(m1)
+
+mis = None
+lis = []
+with open('characters.json') as json_file:
+    mis = json.load(json_file)
+df = pd.DataFrame(mis)
+df1 = df['id']
+df1 = pd.DataFrame(df1)
+df1['house'] = df['house']
+df1= df1.dropna()
+df1
+we = nx.Graph([(frm,to) for (frm, to) in df1.values])
+fig, ax = plt.subplots()
+nx.draw(we, with_labels=True)
+st.pyplot(fig)
