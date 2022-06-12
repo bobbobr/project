@@ -102,6 +102,6 @@ we = nx.Graph(hs)
 nx.draw(we)
 fig, ax = plt.subplots()
 pos = nx.kamada_kawai_layout(we,)
-nx.draw(we, pos, with_labels=True)
+nx.draw(we.subgraph(['Gryffindor'] + list(we.neighbors('Gryffindor'))), pos, with_labels=True)
 st.pyplot(fig)
 
