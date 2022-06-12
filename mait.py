@@ -15,9 +15,9 @@ from sklearn.linear_model import LinearRegression
 
 s = pd.read_csv('check.csv')
 model = LinearRegression()
-model.fit(s[["Rate"]], s["Min"])
+model.fit(s[["Rate"]][0], s["Min"])
 st.write(model.coef_, model.intercept_)
-model.fit(s[["Min"]], s["Votes"])
+model.fit(s[["Min"]][0], s["Votes"])
 st.write(model.coef_, model.intercept_)
 
 
