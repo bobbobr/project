@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import requests
 
-# использовую недокументированного API, пришлось долго рыться в коде странице, чтобы найти нужное
+# использовую недокументированного API, пришлось долго рыться в коде странице, чтобы найти нужное + доп технологии
 ua = UserAgent()
 header = {'User-Agent':str(ua.chrome)}
 
