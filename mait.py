@@ -21,7 +21,7 @@ import scipy.sparse as sp
 with st.echo(code_location='below'):
 
     st.title('Финальный проект. Анализ книг')
-    st.header("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
+    st.header("Вначале проанализируем экранизацию известных книг, а затем посмотрим где можно купить бумажный вариант")
     st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и запишем их в csv, так как selenium в streamlit работает не так, как я хотел.")
     # Здесь начинаю визуализировать данные
     # Данные собраны через провдинутый вебскрепинг. Смотреть файл main.py
@@ -43,10 +43,7 @@ with st.echo(code_location='below'):
     model.fit(s[["Min"]], s["Rate"])
     st.caption('Введите продолжительность в минутах')
     number=st.number_input('Insert a number.')
-    if number >= 0:
-        st.subheader(min(10, model.predict(pd.DataFrame([[number]], columns=["Min"]))[0]))
-    else:
-        st.subheader(0)
+    st.subheader(min(10, model.predict(pd.DataFrame([[number]], columns=["Min"]))[0]))
 
     # Использую математический аппарат Python
     min_array = np.array(s[['Min']])
@@ -59,6 +56,8 @@ with st.echo(code_location='below'):
     name_ = st.multiselect("Параметр", ['Year','Min', 'Votes', 'Rate'])
     if len(name_)==2:
         st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
+    sns.heatmap(pd.DataFrame.corr(s[['Min', 'Rate', 'Votes', 'Year']].dropna(), method='pearson'), annot=True, annot_kws={'fontsize':10}, vmin=-1, vmax=1, linewidth=1, cmap='icefire')
+    st.pyplot()
 
 
     st.header('После просмотра экранизации фильма, хотелось бы купить бумажную версию книги. Это можно сделать в Читай-городе. Давайте посмотрим, где они есть в Москве')
@@ -135,7 +134,6 @@ with st.echo(code_location='below'):
         hs.append((df1.values[i][0],df1.values[i][1]))
     we = nx.Graph(hs)
     nx.draw(we)
-    # Код из https://discuss.streamlit.io/t/streamlit-and-visualization-of-network-x-structures/19023/3 для построения графа. Нижние две строчки
     fig, ax = plt.subplots()
     pos = nx.kamada_kawai_layout(we,)
     st.subheader('Вы можете выбрать школу и затем вам покажут её членов')
