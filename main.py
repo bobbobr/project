@@ -74,6 +74,7 @@ df = df.drop([3], axis = 1)
 df = df.drop([8], axis = 1)
 df.columns = ['Name', 'Year', 'Min', 'Genre', 'Rate', 'Votes', 'Cast']
 d = df['Year'].str.split('TV', expand = True)
+# Это не набор строчек, там почему-то все время слетает всё, поэтому пришлось переобозначивать 
 df['Year'] = d[0]
 df['Year'][202] = 2012
 df['Year'][26] = 1985
