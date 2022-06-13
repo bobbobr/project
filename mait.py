@@ -18,18 +18,20 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
 
-st.header('Финальный проект. Анализ книг')
-st.markdown("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
-st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и записал их в csv.")
+st.title('Финальный проект. Анализ книг')
+st.header("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
+st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и запишем их в csv, так как selenium в streamlit работает не так, как я хотел.")
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
+st.caption('Здесь можно посмотреть детально по годам')
 sel = st.selectbox("Параметр", p.columns[2::])
 fig1 = px.line(p, x = p['Year'], y = sel)
 st.plotly_chart(fig1)
 
+st.subheader('Затем хотелось бы научиться предсказывать, если фильм идет n минут, то какой у него будет рейтинг')
 model = LinearRegression()
 model.fit(s[["Min"]], s["Rate"])
-
+st.caption('Введите продолжительность в минутах')
 number=st.number_input('Insert a number.')
 st.subheader(model.predict(pd.DataFrame([[number]], columns=["Min"]))[0])
 
@@ -37,27 +39,30 @@ min_array = np.array(s[['Min']])
 rate_array = np.array(s[['Rate']])
 vote_array = np.array(s[['Votes']])
 year_array = np.array(s[['Year']])
+st.subheader('Затем хотелось бы посмотреть, а есть ли связь между другими параметрами')
+st.caption('Используя математические возможности, расчитаем коэффициет корреляции')
 st.markdown("Выберите параметр для которого будем считать коэфициент корреляции.")
 name_ = st.multiselect("Параметр", ['Year','Min', 'Votes', 'Rate'])
 st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
 
 
-
+st.header('После просмотра экранизации фильма, хотелось бы купить бумажную версию книги. Это можно сделать в Читай-городе. Давай-те посмотрим, где они есть в Москве')
 
 
 l = pd.read_csv('data.csv')
 
 gdf = gpd.GeoDataFrame(l, geometry=gpd.points_from_xy(l['lon'], l['lat']))
 
-st.write(gdf)
+#st.write(gdf)
 
 m = folium.Map([55.75364, 37.648280], zoom_start=10)
 for ind, row in gdf.iterrows():
     folium.Marker([row.lat, row.lon], radius=30, fill_color='red').add_to(m)
-
+st.write('В этих местах в Москве находится Читай-город')
 a=st_folium(m)
 
 lol = pd.read_csv('moscow.csv')
+st.subheader('Посмотрим в каких районах больше всего Читай-города')
 lol['poly'] = gpd.GeoSeries.from_wkt(lol['poly'])
 lol = gpd.GeoDataFrame(lol, geometry = 'poly')
 l = gpd.GeoDataFrame(l, geometry = gpd.points_from_xy(l['lon'], l['lat']))
@@ -85,6 +90,7 @@ sto = folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
 sto.geojson.add_child(folium.features.GeoJsonTooltip(['name'],labels=False))
 plo = st_folium(m1)
 
+st.subheader('Затем я хочу посмотреть на мою любимую книгу Гарри Поттер и кто из героев относится к какой школе. Это идеально показать через графы')
 mis = None
 lis = []
 with open('characters.json') as json_file:
