@@ -58,8 +58,9 @@ with st.echo(code_location='below'):
     name_ = st.multiselect("Параметр", ['Year','Min', 'Votes', 'Rate'])
     if len(name_)==2:
         st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
+    fig, ax = plt.subplots()    
     sns.heatmap(pd.DataFrame.corr(s[['Min', 'Rate', 'Votes', 'Year']].dropna(), method='pearson'), annot=True, annot_kws={'fontsize':10}, vmin=-1, vmax=1, linewidth=1, cmap='icefire')
-    st.pyplot()
+    st.pyplot(fig)
 
 
     st.header('После просмотра экранизации фильма, хотелось бы купить бумажную версию книги. Это можно сделать в Читай-городе. Давайте посмотрим, где они есть в Москве')
