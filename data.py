@@ -3,8 +3,13 @@ import re
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import requests
+import sqlite3
+import networkx as nx
+import matplotlib as plt
 
-# использовую недокументированного API, пришлось долго рыться в коде странице, чтобы найти нужное + доп технологии
+
+
+# использовую недокументированного API, пришлось долго рыться в коде странице, чтобы найти нужное
 ua = UserAgent()
 header = {'User-Agent':str(ua.chrome)}
 
@@ -25,3 +30,15 @@ l = pd.DataFrame({'lat':lat,'lon':lon})
 l['lat'] = l['lat'].str.replace('"', '')
 l['lon'] = l['lon'].str.replace('"', '')
 l.to_csv('/Users/vanys/PycharmProjects/project/data.csv')
+
+# Использую SQL  и строю граф, но в стримлит базу данных сложно подключать, поэтому там я делаю по-другому, чтобы виден был результат, но этот код работает точно также и удобнее
+df=pd.read_csv('harry.csv')
+conn = sqlite3.connect('harry.sqlite')
+c = conn.cursor()
+har = c.execute(
+    """
+    SELECT name, house FROM harry
+    WHERE house IS NOT NULL
+    """).fetchall()
+ww = nx.Graph(har)
+nx.draw(ww.subgraph(['Gryffindor'] + list(ww.neighbors('Gryffindor'))), with_labels=True)
