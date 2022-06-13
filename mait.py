@@ -100,7 +100,7 @@ for i in range(len(df1.values)):
     hs.append((df1.values[i][0],df1.values[i][1]))
 we = nx.Graph(hs)
 nx.draw(we)
-fig, ax = plt.subplots(figsize=(50,50))
+fig, ax = plt.subplots(figsize=(10,10))
 pos = nx.kamada_kawai_layout(we,)
 harry = st.selectbox('Выберите факультет', options = df1['house'].unique())
 nx.draw(we.subgraph([harry] + list(we.neighbors(harry))), pos, with_labels=True)
