@@ -26,6 +26,10 @@ with st.echo(code_location='below'):
     # Здесь начинаю визуализировать данные
     # Данные собраны через провдинутый вебскрепинг. Смотреть файл main.py
     s = pd.read_csv('check.csv')
+    show_data = st.expander("Посмотреть данные")
+
+    with show_data:
+        st.write(s.head(20))
     p = s.groupby('Year').mean().reset_index()
     st.caption('Здесь можно посмотреть детально по годам')
     sel = st.selectbox("Параметр", p.columns[2::])
