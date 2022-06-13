@@ -155,6 +155,6 @@ with st.echo(code_location='below'):
     * доп технологии: продвинутый парсинг с fakeuseragent 
     * больше 120 строк)
     
-    Ссылка на гитхаб: https://github.com/bobbobr/project
+    Ссылка на гитхаб: https://github.com/bobbobr/project  для просмотра data.py и main.py, где код по сбору данных и другие использованные технологии
     '''
 
