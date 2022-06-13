@@ -33,8 +33,9 @@ with st.echo(code_location='below'):
     p = s.groupby('Year').mean().reset_index()
     st.caption('Здесь можно посмотреть детально по годам')
     sel = st.selectbox("Параметр", p.columns[2::])
-    fig1 = px.line(p, x = p['Year'], y = sel)
-    st.plotly_chart(fig1)
+    if sel:
+        fig1 = px.line(p, x = p['Year'], y = sel)
+        st.plotly_chart(fig1)
 
     # Использую машинное обучение
     st.subheader('Затем хотелось бы научиться предсказывать, если фильм идет n минут, то какой у него будет рейтинг')
