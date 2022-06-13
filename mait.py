@@ -98,7 +98,7 @@ with st.echo(code_location='below'):
     sto.geojson.add_child(folium.features.GeoJsonTooltip(['name'],labels=False))
     plo = st_folium(m1)
 
-    # Использую графы 
+    # Использую графы. в файле data.py я сделал это через sql, но в streamlit проблемы с подключением к бд, поэтому тут я сделал по-другому, чтобы показать результат. Использование sql посмотрите в файле data.py. Спасибо
     st.subheader('Затем я хочу посмотреть на мою любимую книгу Гарри Поттер и кто из героев относится к какой школе. Это идеально показать через графы')
     mis = None
     lis = []
