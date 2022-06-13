@@ -54,7 +54,8 @@ with st.echo(code_location='below'):
     st.caption('Используя математические возможности, расчитаем коэффициет корреляции')
     st.markdown("Выберите 2 параметра для которого будем считать коэфициент корреляции.")
     name_ = st.multiselect("Параметр", ['Year','Min', 'Votes', 'Rate'])
-    st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
+    if len(name_)==2:
+        st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
 
 
     st.header('После просмотра экранизации фильма, хотелось бы купить бумажную версию книги. Это можно сделать в Читай-городе. Давайте посмотрим, где они есть в Москве')
