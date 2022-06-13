@@ -18,6 +18,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
 
+with st.echo(code_location='below'):
+
 st.title('Финальный проект. Анализ книг')
 st.header("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
 st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и запишем их в csv, так как selenium в streamlit работает не так, как я хотел.")
