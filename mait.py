@@ -43,7 +43,10 @@ with st.echo(code_location='below'):
     model.fit(s[["Min"]], s["Rate"])
     st.caption('Введите продолжительность в минутах')
     number=st.number_input('Insert a number.')
-    st.subheader(min(10, model.predict(pd.DataFrame([[number]], columns=["Min"]))[0]))
+    if number >= 0:
+        st.subheader(min(10, model.predict(pd.DataFrame([[number]], columns=["Min"]))[0]))
+    else:
+        st.subheader(0)
 
     # Использую математический аппарат Python
     min_array = np.array(s[['Min']])
