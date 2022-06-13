@@ -154,5 +154,7 @@ with st.echo(code_location='below'):
     * работа с графами
     * доп технологии: продвинутый парсинг с fakeuseragent 
     * больше 120 строк)
+    
+    Ссылка на гитхаб: https://github.com/bobbobr/project
     '''
 
