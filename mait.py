@@ -61,6 +61,10 @@ with st.echo(code_location='below'):
     # Данные собраны через недокументированные API. Смотреть файл data.py, где дополнительно использую регулярные выражения
     # Помимо этого использую дополнительные технологии в виде fakeuseragent. Для обхода блокировок сайта.
     l = pd.read_csv('data.csv')
+    show_data = st.expander("Посмотреть данные")
+
+    with show_data:
+        st.write(l.head(20))
     # Работаю с геоданными и отоброжаю их на карте, используя продвинутые пандас
     gdf = gpd.GeoDataFrame(l, geometry=gpd.points_from_xy(l['lon'], l['lat']))
 
@@ -74,6 +78,10 @@ with st.echo(code_location='below'):
 
     # Дополняю визуализацию данных, работу с геоданными, и продвинутые пандас
     lol = pd.read_csv('moscow.csv')
+    show_data = st.expander("Посмотреть данные")
+
+    with show_data:
+        st.write(lol.head(20))
     st.subheader('Посмотрим в каких районах больше всего Читай-города')
     lol['poly'] = gpd.GeoSeries.from_wkt(lol['poly'])
     lol = gpd.GeoDataFrame(lol, geometry = 'poly')
@@ -113,7 +121,10 @@ with st.echo(code_location='below'):
     df1 = pd.DataFrame(df1)
     df1['house'] = df['house']
     df1= df1.dropna()
-    df1
+    show_data = st.expander("Посмотреть данные")
+
+    with show_data:
+        st.write(df1.head(20))
     hs = []
     for i in range(len(df1.values)):
         hs.append((df1.values[i][0],df1.values[i][1]))
