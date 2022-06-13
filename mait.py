@@ -41,7 +41,7 @@ vote_array = np.array(s[['Votes']])
 year_array = np.array(s[['Year']])
 st.subheader('Затем хотелось бы посмотреть, а есть ли связь между другими параметрами')
 st.caption('Используя математические возможности, расчитаем коэффициет корреляции')
-st.markdown("Выберите параметр для которого будем считать коэфициент корреляции.")
+st.markdown("Выберите 2 параметра для которого будем считать коэфициент корреляции.")
 name_ = st.multiselect("Параметр", ['Year','Min', 'Votes', 'Rate'])
 st.write(np.corrcoef(np.array(s[name_[0]]),np.array(s[name_[1]])))
 
