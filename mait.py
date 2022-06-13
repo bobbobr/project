@@ -21,6 +21,8 @@ import scipy.sparse as sp
 st.title('Финальный проект. Анализ книг')
 st.header("Вначале проанализируем экранизацию известных кних, а затем посмотрим где можно купить бумажный вариант")
 st.subheader("Сперва возьмем данные с помощью продвинутого вебскрепинга с сайта IMBD и запишем их в csv, так как selenium в streamlit работает не так, как я хотел.")
+# Здесь начинаю визуализировать данные
+# Данные собраны через провдинутый вебскрепинг. Смотреть файл main.py
 s = pd.read_csv('check.csv')
 p = s.groupby('Year').mean().reset_index()
 st.caption('Здесь можно посмотреть детально по годам')
@@ -28,6 +30,7 @@ sel = st.selectbox("Параметр", p.columns[2::])
 fig1 = px.line(p, x = p['Year'], y = sel)
 st.plotly_chart(fig1)
 
+# Использую машинное обучение
 st.subheader('Затем хотелось бы научиться предсказывать, если фильм идет n минут, то какой у него будет рейтинг')
 model = LinearRegression()
 model.fit(s[["Min"]], s["Rate"])
@@ -35,6 +38,7 @@ st.caption('Введите продолжительность в минутах'
 number=st.number_input('Insert a number.')
 st.subheader(model.predict(pd.DataFrame([[number]], columns=["Min"]))[0])
 
+# Использую математический аппарат Python
 min_array = np.array(s[['Min']])
 rate_array = np.array(s[['Rate']])
 vote_array = np.array(s[['Votes']])
@@ -50,7 +54,7 @@ st.header('После просмотра экранизации фильма, х
 
 
 l = pd.read_csv('data.csv')
-
+# Работаю с геоданными и отоброжаю их на карте, используя продвинутые пандас
 gdf = gpd.GeoDataFrame(l, geometry=gpd.points_from_xy(l['lon'], l['lat']))
 
 #st.write(gdf)
@@ -61,6 +65,8 @@ for ind, row in gdf.iterrows():
 st.write('В этих местах в Москве находится Читай-город')
 a=st_folium(m)
 
+# Дополняю визуализацию данных, работу с геоданными, и продвинутые пандас
+# Данные собраны через недокументированные API. Смотреть файл data.py, где дополнительно использую регулярные выражения
 lol = pd.read_csv('moscow.csv')
 st.subheader('Посмотрим в каких районах больше всего Читай-города')
 lol['poly'] = gpd.GeoSeries.from_wkt(lol['poly'])
@@ -90,6 +96,7 @@ sto = folium.Choropleth(geo_data=loljson, data=itog, columns=['name','tut'],
 sto.geojson.add_child(folium.features.GeoJsonTooltip(['name'],labels=False))
 plo = st_folium(m1)
 
+# Использую графы 
 st.subheader('Затем я хочу посмотреть на мою любимую книгу Гарри Поттер и кто из героев относится к какой школе. Это идеально показать через графы')
 mis = None
 lis = []
