@@ -17,6 +17,8 @@ import plotly.express as px
 import networkx as nx
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
+import seaborn as sns
+
 
 with st.echo(code_location='below'):
 
