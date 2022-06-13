@@ -132,6 +132,7 @@ with st.echo(code_location='below'):
         hs.append((df1.values[i][0],df1.values[i][1]))
     we = nx.Graph(hs)
     nx.draw(we)
+    # Код из https://discuss.streamlit.io/t/streamlit-and-visualization-of-network-x-structures/19023/3 для построения графа. Нижние две строчки
     fig, ax = plt.subplots()
     pos = nx.kamada_kawai_layout(we,)
     st.subheader('Вы можете выбрать школу и затем вам покажут её членов')
