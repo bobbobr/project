@@ -16,3 +16,4 @@ rtree
 sklearn
 networkx 
 scipy
+geopy
